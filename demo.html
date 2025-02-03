@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Travel</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Book Your Travel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Bookings</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="overlay">
+            <h2>Find Your Perfect Getaway</h2>
+            <form class="search-form">
+                <input type="text" placeholder="Enter Destination">
+                <input type="date">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+    
+    <section class="featured-destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <img src="destination1.jpg" alt="Destination 1">
+                <h3>Maldives</h3>
+            </div>
+            <div class="destination-card">
+                <img src="destination2.jpg" alt="Destination 2">
+                <h3>Paris</h3>
+            </div>
+            <div class="destination-card">
+                <img src="destination3.jpg" alt="Destination 3">
+                <h3>Bali</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section class="booking-section">
+        <h2>Book Your Trip</h2>
+        <form class="booking-form">
+            <label for="destination">Destination</label>
+            <input type="text" id="destination" placeholder="Enter Destination">
+            
+            <label for="checkin">Check-in Date</label>
+            <input type="date" id="checkin">
+            
+            <label for="checkout">Check-out Date</label>
+            <input type="date" id="checkout">
+            
+            <label for="guests">Guests</label>
+            <input type="number" id="guests" min="1" max="10">
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Book Your Travel. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
