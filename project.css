@@ -103,17 +103,32 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap:15px;
+    background-color: lightblue;
+    padding:30px;
 }
-/* 3rd part
+/* 3rd part */
 .container-2{
     display:flex;
-    justify-content: space-between;
-} */
-
-
-
-
-
+    flex-wrap:wrap;
+    background-color: blueviolet;
+    color:white;
+    /* align-items:center; */
+    justify-content: space-around;
+    padding:20px;
+}
+.text-container-1{
+/* border:1px solid; */
+padding:10px;
+font-size:3rem;
+line-height:60px;
+}
+.text-container-2{
+font-size:1.2rem;
+}
+.text-container-3{
+    display:flex;
+    justify-content:space-around;
+}
 
 
 
